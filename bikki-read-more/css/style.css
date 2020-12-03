@@ -1,0 +1,136 @@
+
+.header{
+    /* height: 500px; */
+    width: 100%;
+}
+.container{
+    height: 600px;
+        background-color: rgb(236, 230, 230);
+        padding: 44px;
+        height: 500px;
+        margin-bottom: 46px;
+        border-radius: 34px;
+        -webkit-box-shadow: 10px 10px 1px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 1px -2px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 1px -2px rgba(0,0,0,0.75);
+}
+.header h1{
+    text-align: center;
+    margin-bottom: 77px;
+}
+.header .container .row{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.header .container .row img{
+    width: 365px;
+    /* height: -39px; */
+    height: 453px;
+    margin: 2px 107px;
+    border-radius: 29px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.header .container .row .col-md-4{
+    margin-top: 66px;
+}
+.header .row .col-md-8 h2{
+    margin-bottom: 21px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: 'FontAwesome';
+    border-bottom: 1px solid black;
+    width: 433px;
+    padding-bottom: 6px;
+}
+.header  .row .col-md-8 p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'FontAwesome';
+}
+.header  .container .row .col-md-8 .btn5{
+    background-color: green;
+    color: white;
+    color: black;
+    width: 103px;
+    border-radius: 12px;
+    margin-right: 10px;
+    height: 40px;
+}
+.header .btn5 a{
+    color: white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+.header .container .row .col-md-8 .btn5:hover{
+    border: none;
+    background: pink;
+    outline: none;
+    text-decoration: none;
+}
+.header .container .row{
+    flex-direction: row-reverse;
+}
+.container2{
+    height: 400px;
+}
+.header h1{
+    text-align: center;
+    margin-bottom: 77px;
+}
+.header .container .row{
+    height: 100px;
+    width: 100%;
+    display: flex;
+}
+.header .container .row img2{
+    width: 207px;
+    height: -39px;
+    height: 254px;
+    
+    margin: 2px 107px;
+    border-radius: 29px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.header .row .col-md-8 h2{
+    margin-bottom: 21px;
+    font-size: 31px;
+    font-weight: bold;
+    font-family: 'FontAwesome';
+    border-bottom: 1px solid black;
+    width: 433px;
+    padding-bottom: 6px;
+}
+.header  .row .col-md-8 p{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'FontAwesome';
+}
+.header .container .row .col-md-8 .btn{
+    background-color: green;
+    color: white;
+    color: black;
+    width: 103px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+.header .btn a{
+    color: white;
+    font-weight: 600;
+}
+.header .btn:hover{
+    border: none;
+    background: gray;
+    outline: none;
+    text-decoration: none;
+}
+.header .container .row{
+    flex-direction: row-reverse;
+}
